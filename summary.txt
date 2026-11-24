@@ -1,0 +1,39 @@
+CAMPAIGN REPORT SUMMARY
+=======================
+
+Overview
+--------
+We looked at 9 campaigns. Together they spent €7,982.50, got 10,740 clicks and 405 conversions.
+On average, each conversion cost €19.71.
+
+Campaign by campaign
+--------------------
+Brand Search
+  CTR 9.17% | CPC €0.41 | Conversion rate 8.64% | Cost per conversion €4.74
+Generic Search - Shoes  <-- needs attention
+  CTR 4.00% | CPC €0.90 | Conversion rate 3.00% | Cost per conversion €30.01
+Competitor Keywords  <-- needs attention
+  CTR 3.00% | CPC €1.80 | Conversion rate 2.22% | Cost per conversion €81.00
+Display Remarketing  <-- needs attention
+  CTR 0.60% | CPC €0.40 | Conversion rate 0.00% | Cost per conversion: n/a (no conversions)
+Shopping - Bestsellers
+  CTR 4.00% | CPC €0.60 | Conversion rate 5.00% | Cost per conversion €12.00
+YouTube Awareness  <-- needs attention
+  CTR 0.30% | CPC €1.33 | Conversion rate 0.67% | Cost per conversion €200.00
+Summer Sale Promo
+  CTR 4.00% | CPC €0.60 | Conversion rate 5.00% | Cost per conversion €12.00
+Performance Max - New Customers  <-- needs attention
+  CTR 2.50% | CPC €0.75 | Conversion rate 2.50% | Cost per conversion €30.00
+Paused Test Campaign
+  CTR n/a | CPC n/a | Conversion rate n/a | Cost per conversion: n/a (no conversions)
+
+What needs attention
+--------------------
+5 of 9 campaigns need attention:
+- YouTube Awareness: €200.00 per conversion (10.1x the average).
+- Competitor Keywords: €81.00 per conversion (4.1x the average).
+- Generic Search - Shoes: €30.01 per conversion (1.5x the average).
+- Performance Max - New Customers: €30.00 per conversion (1.5x the average).
+- Display Remarketing: spent €360.00 with no conversions.
+
+Best performer: Brand Search, at only €4.74 per conversion.

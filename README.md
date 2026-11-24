@@ -89,8 +89,8 @@ A campaign **needs attention** if:
 I built this as a beginner Python project with Claude Code, using only Python's built-in tools.
 
 - **Ask for a plan and explanations, and check the settings.** I asked Claude Code to explain its plan before creating files, but in Auto mode it created and ran them straight away. I reviewed everything afterwards, and next time I would switch to a mode that waits for my approval.
-- **Test the awkward cases.** Check the AI's judgment calls. My request said "above the average" without saying which average. Claude Code chose a weighted average (total cost ÷ total conversions) instead of a simple one. I checked this and agreed: a weighted average stops one small, expensive campaign from distorting the benchmark. 
-The first version worked on the sample data. But when I set one campaign's conversions to 0, the report showed "€0.00 per conversion", which made a campaign that wasted €360 look like the best one.
+- **Check the AI's judgment calls.** My request said "above the average" without saying which average. Claude Code chose a weighted average (total cost ÷ total conversions) instead of a simple one. I checked this and agreed: a weighted average stops one small, expensive campaign from distorting the benchmark.
+- **Test the awkward cases.** The first version worked on the sample data. But when I set one campaign's conversions to 0, the report showed "€0.00 per conversion", which made a campaign that wasted €360 look like the best one.
 - **Review the output, then refine.** After reading the results I asked for these changes:
   - Show "n/a" instead of €0.00 when there are no conversions.
   - Don't flag paused campaigns that spent nothing. I added a test campaign with all zeros to check this.

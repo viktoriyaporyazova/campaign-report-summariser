@@ -80,7 +80,6 @@ Or open the **campaign-report-summariser-main** folder in Finder and double-clic
 ### Common problems
 - **"No such file or directory"**: you're not in the project folder, or the folder name has a typo. Check the spelling and repeat step 3.
 - **"command not found: python3"**: Python isn't installed. Repeat step 4 and install Command Line Tools when asked.
-```
 
 ## Example output
 

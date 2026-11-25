@@ -18,23 +18,68 @@ All data in campaigns.csv is made up for this example. No real client data is us
 3. Flags campaigns that **need attention**.
 4. Writes the summary to `summary.txt` and also shows it on screen.
 
-## How to run it
+## How to run it (Mac, step by step)
 
-You need Python 3, which is already installed on most Macs. Nothing else needs installing.
+You don't need any coding experience. It takes about 5 minutes.
 
-1. Open the Terminal and go to this project folder.
-2. Run:
+### 1. Download the project
+1. On this GitHub page, click the green **Code** button.
+2. Click **Download ZIP**.
+3. Open your **Downloads** folder and double-click the ZIP file.
+   A folder called **campaign-report-summariser-main** appears.
 
-   ```bash
-   python3 summarise.py
-   ```
+### 2. Open Terminal
+1. Press **Cmd + Space** to open Spotlight search.
+2. Type **Terminal** and press **Enter**.
+   A window with text and a blinking cursor opens.
 
-3. Open `summary.txt` to read the report.
+### 3. Go to the project folder
+Type this and press **Enter**:
 
-To use your own data, replace the rows in `campaigns.csv`. Keep the same column headings:
+    cd ~/Downloads/campaign-report-summariser-main
 
-```
-campaign_name,impressions,clicks,cost_eur,conversions
+You're in the right place if the folder name now appears just before the `%` sign.
+
+If you moved the folder somewhere else (for example to your Desktop), replace `Downloads` with that location, for example:
+
+    cd ~/Desktop/campaign-report-summariser-main
+
+### 4. Check that Python is installed
+Type this and press **Enter**:
+
+    python3 --version
+
+You should see something like `Python 3.x.x`.
+If your Mac asks to install **Command Line Tools**, click **Install** and wait for it to finish, then try again.
+
+### 5. Run the tool
+Type this and press **Enter**:
+
+    python3 summarise.py
+
+The report appears in Terminal and is also saved as **summary.txt**.
+
+### 6. Open the report
+Type this and press **Enter**:
+
+    open summary.txt
+
+Or open the **campaign-report-summariser-main** folder in Finder and double-click **summary.txt**.
+
+## Using your own data
+
+1. In the project folder, right-click **campaigns.csv** and choose **Open With → TextEdit**.
+   (Avoid Excel here: it can change the file's format when saving.)
+2. Replace the example rows with your own campaigns. Keep the first line exactly as it is:
+
+       campaign_name,impressions,clicks,cost_eur,conversions
+
+3. Save with **Cmd + S**.
+4. In Terminal, run `python3 summarise.py` again to get a new report.
+
+### Common problems
+- **"No such file or directory"**: you're not in the project folder, or the folder name has a typo. Check the spelling and repeat step 3.
+- **"command not found: python3"**: Python isn't installed. Repeat step 4 and install Command Line Tools when asked.
 ```
 
 ## Example output
